@@ -1,0 +1,110 @@
+/*============================fonts================*/
+@font-face {
+    font-family:openlight;
+	src: url('fonts/openlight.ttf');
+     
+}
+
+@font-face {
+    font-family:open;
+	src: url('fonts/open.ttf');
+     
+}
+
+
+@font-face {
+    font-family:museo;
+	src: url('fonts/museo.otf');
+     
+}
+@font-face {
+    font-family:geo;
+	src: url('fonts/geo.otf');
+     
+}
+
+/*===========================anchor===========================================*/
+
+a:link {color:white;}      /* unvisited link */
+a:visited {color:lightyellow;}  /* visited link */
+a:active {color:red;}
+
+/*=========================LAYOUT SECTION==============================*/
+/*[title=W3Schools]*/
+body{background:#9c9f84 url('gimg/f3.gif') center fixed; margin:0px; font-family:open; font-size: 14px; /*font-size: 15px;*/ }
+#container{ width:1328px; margin:0px auto; } 
+
+/*===================================header1 SECTION===================================================*/
+
+#header1{background:#5c755e url('gimg/mm.jpg') repeat center; margin:10px; padding:10px; height:90px; border-radius:5px; BORDER:SOLID 2PX white;}
+
+/*===================================NAVIGATION SECTION==============================*/
+
+/*#navbar {background-color:#5c755e; margin:10px; height:35px; border-radius:50px;}*/
+#navbar ul{background:#ffF url('gimg/f2.gif'); BORDER:dotted 2PX white; margin:10px;  text-align:center; list-style-type:none; padding:5px; border-radius:50px;} 
+#navbar ul li{ display:inline; }
+#navbar ul li a{ text-decoration:none; font-family:museo; padding:.2em 1em; color:#fff;background:#fff url('gimg/f1.gif'); border-radius:50px; BORDER:SOLID 2PX white;  }
+#navbar ul li a:hover{ color:darkgreen; background:#fff;BORDER:SOLID 4PX darkgreen;transition:1s ease-in-out;font-style:italic; }
+
+/*==============================================MAIN============================================*/
+
+.scrollContainer div.main {background:#fff url('gimg/f2.gif') repeat; height:843px;clear:center; color:#fff;margin-right:-20px;overflow:hidden; margin-left:-20px; margin-top:0px; margin-bottom:50px; border-radius:50px; /*border:dotted 4px white; */padding:20px; font-size:110%;font-family:museo; /*BORDER-lefT:SOLID 2PX white; BORDER-RIGHT:SOLID 2PX white; BORDER-BOTTOM:SOLID 2PX white; BORDER-BOTTOM-LEFT-RADIUS:1EM; BORDER-BOTTOM-righT-RADIUS:1EM;*/ }
+.scrollContainer div.main form,form fieldset div{margin:50px 10px 10px 10px;}
+.scrollContainer div.main form fieldset{margin:50px 10px 10px 10px; border-radius:50px;}
+.scrollContainer div.main img{ border-radius:50px;margin:20px 10px 50px 50px ;border:solid 2px white }
+.scroll{ background:#fff url('gimg/f2.gif') repeat;height:843px; width:696 px;
+   position:relative;
+   overflow:hidden;
+    clear: center-center;
+	margin: 0px 80px 50px 50px;
+	border-radius:50px; border:dotted 4px white; padding:20px; font-size:110%; BORDER-lefT:SOLID 2PX white; BORDER-RIGHT:SOLID 2PX white; BORDER-BOTTOM:SOLID 2PX white; BORDER-BOTTOM-LEFT-RADIUS:1EM; BORDER-BOTTOM-righT-RADIUS:1EM; 
+}
+/*================================SIDEBAR==========================*/
+
+.sideleft {background:#fff url('gimg/f1.jpg') ;text-align:left; margin-right:10px; margin-left:10px; margin-top:0px; margin-bottom:10px; border-radius:50px; padding:20px; font-size:105%; float:left; width:260px; clear:left;BORDER-LEFT:solid 2PX white; BORDER-BOTTOM:SOLID 2PX white; BORDER-BOTTOM-LEFT-RADIUS:1EM;  }
+.sideleft ul{   text-align:left; list-style-type:none; padding:10px; } 
+.sideleft ul li{ margin:20px 20px 0px 0px;background:#fff url('gimg/f2.jpg');border:solid 2px white; height:25px;color:white; width:200px; border-radius:50px;}
+.sideleft ul li a{ text-decoration:none; font-family:museo; padding:.2em 1em; color:#fff;background:transparent; border-RADIUS:50px;   }
+.sideleft ul li:hover{ color:darkgreen; background:#fff; border:dotted 2px darkgreen; font-style:italic;}
+.sideleft ul li a:hover{ color:darkgreen; background:#fff; transition: 1s ease-in-out;}
+.sideleft marquee{background:#fff url('gimg/f1.gif') ; border-radius:50px; color:white;} 
+.sideleft marquee:hover{background:white; color:red; outline:dotted white;  font-style:italic; transition: 1s ease-in-out;  } 
+.sideleft video{background:#fff url('gimg/f1.gif'); margin-right:10px; margin-left:10px; margin-top:0px; margin-bottom:10px; border-radius:50px; width:250px; height:190px; clear:center; BORDER-LEFT:SOLID 2PX white; BORDER-BOTTOM:SOLID 2PX white; BORDER-BOTTOM-LEFT-RADIUS:1EM;BORDER-BOTTOM-righT-RADIUS:1EM;  }
+/*.sideleft form{ padding:10px; margin:0px; color:white; font-size:90%;float:left;clear:center;  }
+.sideleft form input{ padding:10px; margin:10px; color:green; border-radius:10px; font-size:80%; float:left; BORDER-righT:SOLID 2PX white; BORDER-BOTTOM:SOLID 2PX white; BORDER-BOTTOM-righT-RADIUS:1EM;  }*/
+.imgsidebar {margin-right:10px; margin-left:10px; margin-top:0px; margin-bottom:10px; border-radius:50px; float:left; width:300px; clear:left; opacity:1.0; transition: opacity 1s ease-in-out; BORDER-LEFT:SOLID 2PX white; BORDER-BOTTOM:SOLID 2PX white; BORDER-BOTTOM-LEFT-RADIUS:1EM; }
+.imgsidebar:hover {opacity:0.75;filter:alpha(opacity=40);}
+.sideright {background:#fff url('gimg/f1.jpg'); text-align:right; margin-right:10px; margin-left:10px; margin-top:0px; margin-bottom:10px; border-radius:50px; padding:20px; font-size:105%; float:right; width:260px; clear:right; BORDER-righT:SOLID 2PX white; BORDER-BOTTOM:SOLID 2PX white; BORDER-BOTTOM-righT-RADIUS:1EM;  }
+.sideright audio{background:#fff url('gimg/f1.gif'); margin-right:10px; margin-left:10px; margin-top:0px; margin-bottom:10px; border-radius:10px; width:250px; height:30px; clear:center; BORDER:SOLID 2PX white;   }
+.sideright marquee{background:#fff url('gimg/f1.gif'); border-radius:50px; color:white;} 
+.sideright form{ padding:10px; font-family:open; margin:0px; color:white; font-size:90%;float:left;clear:right;  }
+.sideright form input{ padding:10px; margin:10px; color:green; border-radius:10px; font-size:80%; float:right; BORDER-righT:SOLID 2PX white; BORDER-BOTTOM:SOLID 2PX white; BORDER-BOTTOM-righT-RADIUS:1EM;  }
+.sideright marquee:hover{ background:white; outline:dotted white; color:green; font-style:italic; transition: 1s ease-in-out;  } 
+.sideright textarea{background:#fff url('gimg/f1.gif'); color:white; font-size:200%;margin-right:10px; margin-left:10px; margin-top:0px; margin-bottom:10px; border-radius:50px; width:250px; height:200px; clear:center; BORDER-righT:SOLID 2PX white; BORDER-BOTTOM:SOLID 2PX white; BORDER-BOTTOM-righT-RADIUS:1EM;  BORDER-top-lefT-RADIUS:1EM;  }
+/*.imgsidebar1{margin-right:10px; margin-left:10px; margin-top:0px; margin-bottom:10px; border-radius:50px; float:right; width:300px; clear:right; opacity:1.0; transition: opacity 1s ease-in-out; BORDER-righT:SOLID 2PX #000; BORDER-BOTTOM:SOLID 2PX #000; BORDER-BOTTOM-righT-RADIUS:1EM; }
+.imgsidebar1:hover {opacity:0.75; filter:alpha(opacity=40);}*/
+/*.sideright #placeholder{margin-right:10px; margin-left:10px; margin-top:0px; margin-bottom:10px; border-radius:50px; float:left; width:300px; clear:left; opacity:1.0; transition: opacity 1s ease-in-out; BORDER-LEFT:SOLID 2PX #000; BORDER-BOTTOM:SOLID 2PX #000; BORDER-BOTTOM-LEFT-RADIUS:1EM; }
+/*=======================================footer1======================================*/
+
+#footer1{background:#5c755e url('gimg/mm1.jpg') top; margin:10px; height:65px; border-style:dotted solid dashed double; border-radius:50px; border-color:white; clear:both; color:white;  text-align:center; padding:15px; font-size:90%; } 
+#footer1 ul{ margin:5px; text-align:center; list-style-type:none; padding:5px; border-radius:50px; }
+#footer1 ul li{ display:inline; }
+#footer1 ul li a{ text-decoration:none; font-family:museo; padding:.2em 1em; color:brown; background-color:#transparent; }
+#footer1 ul li a:hover{ color:darkgreen; background-color:#fff;}
+
+/*=========================HEADINGS SECTION==============================*/
+
+h1{font-size:120%; color:violet;  font-family:museo} 
+h2{ font-size:120%; color:lightyellow;  font-family:geo}
+/*h5{ font-size:120%; color:white; }*/
+h3{ font-size:250%; text-align:left; color:#e5e4d7; font-family:museo/*"Century Gothic", "Gill Sans", Arial, sans serif;*/;word-spacing:10px;/*font-style:italic;*/ margin:0px; 	position:relative; 	top:50%; 	-webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+h4{font-size:90%; text-align:left; color:#e5e4d7; font-family:"Century Gothic", "Gill Sans", Arial, sans serif; margin:10px; 	position:relative; 	top:25%; 	-webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+h4 a img:hover{border:solid 2px white;}
+
+/*=================================MINI CONTROL PANEL==========================*/
+
+#BOX { text-align:center; margin:-10px; margin-left:220px; clear:center;BORDER-BOTTOM-righT-RADIUS:1EM; BORDER-BOTTOM-lefT-RADIUS:1EM;BORDER-top-right-RADIUS:1EM; BORDER-top-lefT-RADIUS:1EM; padding:10px; font-size:135%; BORDER-left:SOLID 2PX white; BORDER-right:SOLID 2PX white; BORDER-bottom:SOLID 2PX white ;BORDER-top:SOLID 2PX white; width:280px; }
+#BOX marquee{background:#fff url('gimg/f1.gif');border-radius:5px; color:white; } 
+#BOX marquee:hover{ background:white;  outline:dotted white; color:blue; font-style:italic; transition: 1s ease-in-out;  } 
+.test{display:center; text-align:center; }
+.test img{ BORDER:SOLID 2PX white; border-radius:250px; }
